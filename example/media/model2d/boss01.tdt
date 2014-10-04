@@ -1,0 +1,52 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+
+
+// VctLst: Vertex List
+// TmwLst: Transform world matrix List
+// SptLst: Sprite List
+
+
+
+LayerLst	"boss01"
+{
+	Texture	"character02.png"
+
+	VctLst
+	{
+	}
+
+
+	SptLst	"attack"
+	{
+		FrameTime	80		// millisecond
+
+				// RECT(l,t,w, h) Offset x, y
+		Rec*		269   1  90 153		3		63.5
+		Rec*		360   1 110 152		13		63
+
+		Rec*		  0 201 103 152	 	9.5		63
+		Rec*		197 201  91 151		3.5		62.5
+		Rec*		394 201 115 147		15.5	60.5
+		Rec*		289 201 104 148		10		61
+
+	}
+
+	SptLst "dead"
+	{
+		Rec*		  1   1 93 166	  4.5		70
+		Rec*		  0 168 86 141		-2		57.5
+		Rec*		 95 158 98 116		-9		45
+		Rec*		194 158 96 104		-8		39
+		Rec*		196 263 96  83		-1		28.5
+	}
+
+	SptLst	"move"
+	{
+		FrameTime	333
+		Rec*		 95   1 86 155		1		64.5
+		Rec*		104 201 92 152		-1		63
+		Rec*		182   1 86 154		1		64
+	}
+}
+

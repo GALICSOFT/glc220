@@ -1,0 +1,19 @@
+Version: LcTdm.01
+FrameBeginEndFpsTick:   0  25  40   1
+
+TextureLstNum:  1
+LayerLstNum:  1
+
+Texture_List
+	0	"login.png"
+
+
+
+Layer_List(  0 ) "login"
+	Texture:  0
+	VctNum:  36
+	TmwNum:   0
+	SptNum:   0
+
+
+
